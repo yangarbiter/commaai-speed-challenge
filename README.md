@@ -28,9 +28,12 @@ challenge site: https://github.com/commaai/speedchallenge
 * with validation error around 5 (RMS)
 
 * During high speed this model would underestimate the true speed
+  
+  * The video is in 20 fps and pre-trained c3d only looks 16 frames
 
-* am RNN could be used to improve this model (need some kind of information
-  about the acceleration of the car)
+  * adding RNN could be used to improve this model (need some kind of information
+    about the acceleration of the car or the model need to be able to see further
+    back in history)
 
 
 ## Hand craft features (Failed)
