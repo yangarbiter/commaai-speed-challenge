@@ -25,7 +25,12 @@ challenge site: https://github.com/commaai/speedchallenge
 
 * ./c3d.ipynb
 
-* with validation error around 50 (RMS)
+* with validation error around 5 (RMS)
+
+* During high speed this model would underestimate the true speed
+
+* am RNN could be used to improve this model (need some kind of information
+  about the acceleration of the car)
 
 
 ## Hand craft features (Failed)
